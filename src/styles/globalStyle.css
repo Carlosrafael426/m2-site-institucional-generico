@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+:root{
+    --color-backgroud-1:#191C1F;
+    --color-backgroud-2:#212529;
+    --color-title-1:#EDF2FF;
+    --color-title-2:#364FC7;
+    --color-text-1:#ADB5BD;
+    --color-text-2:#CED4DA;
+    --color-text-3:#343A40;
+    --color-backgroud-button:#4C6EF5;
+    --color-text-button:#F8F9FA;
+
+    --font-weight-1:600;
+    --font-weight-2:400;
+    --font-size-1:52px;
+    --font-size-2:40px;
+    --font-size-3:32px;
+    --font-size-4:20px;
+    --font-size-5:18px;
+    --font-size-6:16px;
+    --font-line-1:140%;
+    --font-line-2:150%;
+    --font-line-3:160%;
+}
