@@ -1,0 +1,366 @@
+header{
+    background-color: var(--color-backgroud-1);
+    width: 100%;
+    height: 100px;
+    padding: 20px 236px;
+    border-bottom: 2px solid var(--color-backgroud-button);
+}
+
+.logo__container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 900px;
+}
+
+.logo__item{
+    width: 200px;
+    height: 20.8px;
+}
+
+.logo__button{
+    color: var(--color-text-button);
+    width: 300px;
+    height: 60px;
+    border: 1px solid var(--color-text-button);
+    padding: 20px 32px;
+    gap: 10px;
+    background-color: var(--color-backgroud-1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner{
+    background-color: var(--color-backgroud-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 781px;
+    padding: 250px 236px;
+    gap: 44px;
+}
+.banner__container{
+    display: flex;
+    flex-direction: column;
+}
+.banner__title{
+    color: var(--color-title-1);    
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 72.8px;
+    text-align: center;
+
+}
+
+.banner__title--span{
+    color: var(--color-title-2);
+}
+
+.banner__content{
+    margin: 0 auto;
+    justify-content: center;
+    width: 770px;
+    height: 60px;
+    color: var(--color-text-1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.banner__button{
+    margin: 0 auto;
+    background-color: var(--color-backgroud-button);
+    color: var(--color-text-button);
+    width: 142px;
+    height: 60px;
+    padding: 20px 32px;
+    gap: 10px;
+
+}
+
+.about{
+    background-color: var(--color-backgroud-1);
+    width: 100%;
+    height: 284px;
+    top: 881px;
+    padding: 82px 236px;
+}
+
+.about__container{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+  
+}
+
+.about__title{
+    color:var(--color-title-1);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    width: 620px;
+    height: 46px;
+}
+
+.about__content{
+    color: var(--color-text-2);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    width: 580px;
+    height: 120px;    
+}
+
+.faq{
+    background-color: var(--color-backgroud-2);
+    width: 100%;
+    height: 1,132px;
+    top: 1165px;
+    padding: 82px 310px;
+}
+
+.faq__container{
+    display: flex;
+    gap: 320px;
+}
+
+.faq__container--doubts{
+    width: 620px;
+    height: 280px;
+    gap: 10px;
+    
+}
+
+.faq__container--left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.faq__doubts{
+    color: var(--color-title-1);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+}
+
+.faq__doubts--content{
+    color: var(--color-text-1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.faq__doubts--button{
+    background-color: var(--color-backgroud-button);
+    width: 266px;
+    height: 60px;
+    padding: 20px 32px;
+    border: 1px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-text-button);
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    width: 583px;
+    height: 968px;
+    gap: 60px;
+    list-style-type: none;
+}    
+
+.quation__list{
+    display: flex;
+    width: 583px;
+    height: 197px;
+}
+
+.question__list--title{
+    color: var(--color-title-1);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51.2px;
+    text-align: center;
+}
+
+.question__list--content{
+    color:  var(--color-text-1);
+    width: 583px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+   text-align: justify;
+    
+
+}
+
+.comment{
+    background-color: var(--color-backgroud-2);
+    width: 100%;
+    height: 1,387px;
+    padding: 82px 236px;
+    gap: 56px;
+
+}
+
+.comment__container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 350px;
+}
+
+.comment__highlights{
+    width: 580px;
+    height: 443px;
+    padding: 0px 84px;
+    gap: 35px;
+    opacity: 0px;
+
+    
+}
+
+.comment__highlights--container{
+    background-color: var(--color-backgroud-button);
+    width: 493.6px;
+    height: 443px;
+    padding: 80px 52px 80px 52px;
+    gap: 35px;
+    opacity: 0px;
+
+}
+
+.comment__highlights--title{
+    color: var(--color-text-button);
+    width: 389.6px;
+    height: 128px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+}
+
+.comment__highlights--content{
+    color: var(--color-text-button);
+    width: 389.6px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.comment__list--container{
+    list-style-type: none;
+    width: 620px;
+    height: 1,223px;
+    gap: 82px;
+}
+
+.comment__list{
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    height: 179px;
+    opacity: 0px;
+
+}
+
+.comment__list--item{
+    width: 192px;
+    height: 82px;
+
+}
+
+.comment_list--title{
+    color: var(--color-title-1);
+    width: 154px;
+    height: 51px;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 51.2px;
+    text-align: left;
+}
+
+.comment__list--reference{
+    color: var(--color-text-1);
+    width: 176px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.comment__list--content{
+    color: var(--color-text-2);
+    width: 412px;
+    height: 179px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+
+}
+
+footer{
+    background-color: var(--color-backgroud-1);
+    width: 1,728px;
+    height: 102px;
+    top: 3684px;
+    padding: 50px 900px;
+    gap: 10px;
+    opacity: 0px;
+
+
+}
+
+.logo__Footer{
+    margin: 0 auto;
+    width: 178.42px;
+    height: 18.55px;
+    
+}
+
+
+
