@@ -4,6 +4,8 @@ header{
     height: 100px;
     padding: 20px 236px;
     border-bottom: 2px solid var(--color-backgroud-button);
+    position: fixed;
+    z-index: 1;
 }
 
 .logo__container{
@@ -107,7 +109,7 @@ header{
     font-size: 40px;
     font-weight: 600;
     line-height: 64px;
-    text-align: left;
+    text-align: center;
     width: 620px;
     height: 46px;
 }
@@ -140,7 +142,8 @@ header{
     width: 620px;
     height: 280px;
     gap: 10px;
-    
+    position: sticky;
+    top: 110px; 
 }
 
 .faq__container--left{
@@ -242,6 +245,8 @@ header{
     padding: 0px 84px;
     gap: 35px;
     opacity: 0px;
+    position: sticky;
+    top: 120px;
 
     
 }
